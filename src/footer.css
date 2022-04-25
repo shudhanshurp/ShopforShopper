@@ -1,0 +1,26 @@
+.footer {
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+.links {
+    display: flex;
+    justify-content: center;
+}
+.footer-layout {
+    display: flex;
+}
+.foot-linker {
+    justify-content: center;
+    display: block;
+}
+.foot-linker > h3 {
+    padding: 0 3rem;
+}
+.footer-links > li {
+    padding: 0.5rem;
+}
+.foot-links {
+    color: white;
+}

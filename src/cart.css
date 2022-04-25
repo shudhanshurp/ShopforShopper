@@ -1,0 +1,25 @@
+.cart-format {
+    margin: 3rem 5rem;
+}
+.cart-main-title {
+    font-size: 3rem;
+}
+.clear-cart {
+    font-size: 1.3rem;
+    color: #e40046;
+}
+.cart-title {
+    border-bottom: 0.2rem solid rgb(170, 170, 170);
+    padding: 1rem;
+}
+.sub-total {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+.buy-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 0.2rem solid rgb(170, 170, 170);
+    padding-bottom: 1rem;
+}

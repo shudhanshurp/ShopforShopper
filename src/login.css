@@ -1,0 +1,47 @@
+.logo-div {
+    display: flex;
+    justify-content: center;
+    background-color: #e40046;
+    padding: 1rem;
+}
+.login-format {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    padding: 2rem;
+    justify-self: center;
+    width: 30rem;
+}
+.main-input {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-weight: 500;
+}
+.input-signin {
+    padding: 1rem;
+    border: 0.1rem solid black;
+}
+.label-signin {
+    padding: 1rem;
+}
+
+#continue-btn {
+    margin: 2rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    width: 27.2rem;
+    background-color: #e40046;
+    color: white;
+}
+
+#continue-btn:hover {
+    background-color: lightcoral;
+}
+
+.new-account-btn {
+    color: black;
+}
+.already-account {
+    display: flex;
+}

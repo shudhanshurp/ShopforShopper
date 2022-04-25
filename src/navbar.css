@@ -1,0 +1,33 @@
+.list {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem auto;
+    padding: 1.5rem 2rem;
+}
+li {
+    list-style: none;
+}
+.list > li > a {
+    margin: 0 1.3rem;
+    text-decoration: none;
+    color: black;
+}
+.list > li > a:hover {
+    font-size: 1.6rem;
+    color: #e40046;
+}
+.active-link {
+    border-bottom: 0.15rem solid #e40046;
+    font-size: 1.7rem;
+}
+@media screen and (min-width: 600px) {
+    .list {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        padding: 1rem 1.7rem;
+    }
+}
